@@ -1,0 +1,64 @@
+.aa{
+    text-decoration: none;
+    background-color: rgb(235, 194, 142);
+    margin-top: 5px;
+    display: inline-block;
+    border-radius: 0 10px 0 10px;
+    padding: 10px;
+    border: 2px solid salmon;
+}
+a:link{
+    color:rgb(29, 151, 29)
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+a:active{
+    background-color: rgb(113, 113, 113);
+}
+#abc{
+    list-style-type: decimal-leading-zero;
+    list-style-position: outside;
+    padding: 0;
+}
+#def{
+    list-style-image: url(check-solid-svg.png);
+    list-style-position: outside;
+    padding: 0;
+}
+.dream{
+    list-style-type: decimal-leading-zero;
+    list-style-position: outside;
+    background-color:rgb(105, 239, 194);
+}
+#e{
+    background-color: rgb(192, 248, 250);
+    margin: 3px;
+}
+table{
+    width: 100%;
+}
+table,th,td{
+    border-bottom: 2px solid green;
+    border-collapse: collapse;
+
+    
+}
+th{
+    height: 50px;
+}
+td{
+    height: 50px;
+    text-align: center;
+    vertical-align: top;
+}
+tr:hover{
+    background: gray;
+}
+tr:nth-child(even){
+    background: rgb(167, 128, 128);
+}
